@@ -1,7 +1,11 @@
-const page = () => {
-  return (
-    <p>Customer Page</p>
-  )
-}
+import { Metadata } from "next";
 
-export default page
+export const metadata: Metadata = {
+  title: "Customers",
+};
+
+const page = () => {
+  return <p>Customer Page</p>;
+};
+
+export default page;
